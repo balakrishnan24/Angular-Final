@@ -37,6 +37,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { UserSignupComponent } from './signup/user-signup/user-signup.component';
 import { MentorSignupComponent } from './signup/mentor-signup/mentor-signup.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -79,6 +80,8 @@ import { MentorSignupComponent } from './signup/mentor-signup/mentor-signup.comp
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+
     FormsModule,
     ReactiveFormsModule
   ],
